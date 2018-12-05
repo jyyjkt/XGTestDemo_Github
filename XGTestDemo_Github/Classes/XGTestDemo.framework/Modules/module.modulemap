@@ -1,0 +1,11 @@
+framework module XGTestDemo {
+  umbrella header "XGTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module XGTestDemo.Swift {
+    header "XGTestDemo-Swift.h"
+    requires objc
+}

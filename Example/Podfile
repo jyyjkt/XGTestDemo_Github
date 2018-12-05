@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XGTestDemo_Github_Example' do
+  pod 'XGTestDemo_Github', :path => '../'
+
+  target 'XGTestDemo_Github_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
