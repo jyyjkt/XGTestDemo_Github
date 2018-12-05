@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XGTestDemo_Github'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '测试Framework'
 
   s.description      = <<-DESC
@@ -25,8 +25,8 @@ TODO: 详细描述
       #sp.resources = 'SDK/ShareSDK/Support/Required/ShareSDK.bundle'
       
       sp.subspec 'TestNext' do |ssp|
-          ssp.vendored_frameworks = 'XGTestDemo_Github/Classes/XGTestDemo.framework'
-          ssp.dependency 'Alamofire', '~> 4.7'
+          #ssp.vendored_frameworks = 'XGTestDemo_Github/Classes/XGTestDemo.framework'
+          ssp.dependency 'Kingfisher','~>4.10'
       end
       
   end
